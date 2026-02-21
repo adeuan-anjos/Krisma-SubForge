@@ -1,0 +1,15 @@
+# Core
+google-genai==1.64.0
+python-ffmpeg
+
+# Limpeza de voz (AMD/Windows via DirectML)
+audio-separator[dml]==0.41.1
+torch-directml
+onnxruntime-directml==1.24.2
+
+# Alinhamento (opcional)
+montreal-forced-aligner==3.3.9
+textgrid
+
+# Build
+pyinstaller==6.13.0
